@@ -1,0 +1,10 @@
+{
+	// The skill is DISABLED by default (opt-in per machine). To enable it, copy this
+	// file to config.json (machine-local, NEVER check it in) and set "disabled": false.
+	"disabled": true,
+	// Model every DELEGATED step runs on. "fable" and "haiku" are never valid here -
+	// the orchestrator may be Fable, the implementers may not.
+	"implementer_model": "opus",
+	// Upper bound on concurrently running sub-agents.
+	"max_parallel_agents": 3
+}
