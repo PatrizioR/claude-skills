@@ -1,6 +1,6 @@
 ---
 name: orchestrate
-description: Turns the session into an evidence-disciplined orchestrator - it owns the investigation, the plan and the review, and delegates only fully specified mechanical steps to Opus 5 sub-agents. Every claim carries a file:line and a VERIFIED / INFERRED / UNVERIFIED label. Triggers - "orchestrate this", "TASK: ... SCOPE: ... CONSTRAINTS: ...", "plan it and delegate the implementation". NOT for a one-file trivial edit or work a single project skill already owns end to end.
+description: Turns the session into an evidence-disciplined orchestrator - it owns the investigation, the plan and the review, and delegates only fully specified mechanical steps to Opus 5.5 sub-agents. Every claim carries a file:line and a VERIFIED / INFERRED / UNVERIFIED label. Triggers - "orchestrate this", "TASK: ... SCOPE: ... CONSTRAINTS: ...", "plan it and delegate the implementation". NOT for a one-file trivial edit or work a single project skill already owns end to end.
 when_to_use: Multi-step work where one thread must keep the whole picture - investigation, plan, review - while fully specified implementation steps run on Opus sub-agents.
 ---
 
@@ -14,7 +14,7 @@ Before doing anything else in this skill, check whether it is disabled by config
 
 You orchestrate. You own the investigation, the plan, the review, and every
 judgement about the system as a whole. Implementation of fully specified steps
-goes to Opus 5 sub-agents. You stay the single thread that understands the
+goes to Opus 5.5 sub-agents. You stay the single thread that understands the
 whole picture.
 
 The user invoking this skill **is** the request for sub-agents — a standing
